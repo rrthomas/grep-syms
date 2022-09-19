@@ -9,3 +9,10 @@ In your shell initialization file:
 ```
 . /path/to/grep-syms
 ```
+
+Example usage:
+
+```
+$ grep -o $WORD foo.txt
+$ grep-frequency -o $TAG bar.html
+```

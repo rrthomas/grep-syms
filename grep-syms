@@ -12,5 +12,5 @@ grep-unique () {
 }
 
 grep-frequency () {
-    grep "$@" | sort | uniq -c | sort -n -k 2
+    grep "$@" | sort | uniq -c | sort -n
 }
